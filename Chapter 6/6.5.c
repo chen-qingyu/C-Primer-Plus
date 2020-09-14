@@ -11,11 +11,17 @@ int main(void)
     {
         char tmp = 'A' - 1;
         for (j = 0; j < length - i - 1; j++)
+        {
             printf(" ");
+        }
         for (j = 0; j <= i; j++)
+        {
             printf("%c", ++tmp);
+        }
         for (j = 0; j < i; j++)
+        {
             printf("%c", --tmp);
+        }
         printf("\n");
     }
 

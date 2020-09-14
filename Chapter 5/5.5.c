@@ -7,7 +7,9 @@ int main(void)
     printf("Please enter the top: ");
     scanf("%d", &top);
     while (count++ < top)
+    {
         sum += count;
+    }
     printf("Sum = %d\n", sum);
 
     return 0;

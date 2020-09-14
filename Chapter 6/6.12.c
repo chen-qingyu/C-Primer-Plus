@@ -9,7 +9,9 @@ int main(void)
         printf("Please enter the N: ");
         scanf("%d", &N);
         if (N < 1)
+        {
             break;
+        }
         for (i = 1, k = 1, sum_1 = 0, sum_2 = 0; i < N + 1; i++, k = -k)
         {
             sum_1 += 1.0 / i;

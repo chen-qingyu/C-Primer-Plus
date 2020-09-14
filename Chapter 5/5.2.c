@@ -6,7 +6,9 @@ int main(void)
     printf("Please enter a integer: ");
     scanf("%d", &num);
     for (int i = 0; i <= 10; i++)
+    {
         printf("%d ", num++);
+    }
 
     return 0;
 }
